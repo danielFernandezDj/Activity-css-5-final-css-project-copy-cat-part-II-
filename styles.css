@@ -32,6 +32,11 @@ button {
     color: blueviolet;
 }
 
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
 
 /* •••••••••••••••••• HERO SECTION •••••••••••••••••• */
 #hero-section {
@@ -141,15 +146,126 @@ button {
 }
 
 #section-3 img {
-    margin: 15px 15px 0 15px;
+    margin: 15px;
     max-height: 400px;
-    position: relative;
 }
 
 .section-3-text {
-    /* color: #eeeff0; */
-    padding: 0;
+    color: #eeeff0;
     position: relative;
-    left: 20px;
-    top: -200px;
+    left: 30px;
+    top: 250px;
+    font-size: 20px;
+}
+
+
+/* •••••••••••• SECTION 4 •••••••••••• */
+
+#section-4 {
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+}
+
+#section-4-dow {
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+}
+
+.section-4-dow-samlls {
+    margin: -10px 15px;
+}
+
+.section-4-dow-samlls a {
+    position: relative;
+    left: -23%;
+}
+
+hr {
+    color: rgba(209, 208, 208, 0.515);
+    position: relative;
+    top: 50px;
+    /* left: -20px; */
+    width: 30vw;
+}
+
+
+/* •••••••••••• SECTION 5 •••••••••••• */
+
+#section-5 {
+    border: 5px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+}
+
+#section-5 img {
+    background-color: rgba(209, 208, 208, 0.515);
+    padding: 30px;
+    margin-right: 5%;
+    height: 600px;
+    width: 350px;
+    object-fit: cover;
+}
+
+#section-5-left {
+    /* border: 5px solid green;     */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-grow: 1;
+    width: 100vw;
+    height: 100%;
+}
+
+#section-5-right {
+    /* border: 5px solid firebrick;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    flex-grow: 1;
+    width: 100vw;
+    height: 100%;
+}
+
+#section-5-right p, h3 {
+    width: 90%;
+}
+
+#section-5-right h4 {
+    position: relative;
+    left: -40%;
+}   
+
+
+/* •••••••••••• SECTION 6 •••••••••••• */
+
+#section-6 {
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+}
+
+#section-6 img {
+    width: 100%;
+    flex-grow: 1;
+}
+
+#section-6 button {
+
 }
